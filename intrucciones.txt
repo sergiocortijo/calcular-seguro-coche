@@ -1,0 +1,17 @@
+PRECIO BASE : 200
+-- según el tomador
+	con menos de 10 años de carnet BASE x 2
+	si es mujer 10% dcto.
+		$anoCarnet
+		$sexo ('H','M')
+-- según el vehiculo
+	con más de 10 años de matriculación suplemento de 100€
+	electrico rebaja del 30%
+	diesel suplemento del 30%
+		$anoMatriculacion
+		$combustible 'E'lectrico, 'G'asolina, 'D'iesel y G'L'P
+-- según modalidad
+	'B'asico -> no cambia
+	'I'ntermedio -> suplemento 200€
+	'T'odo riesgo -> precio x 2
+	
